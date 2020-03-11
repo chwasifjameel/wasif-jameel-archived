@@ -1,0 +1,25 @@
+.background-color {
+  background-color: #000;
+}
+body {
+  color: white;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+.particles-js {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+}
+
+.text-light-color {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.text-title {
+  font-size: 5rem;
+}

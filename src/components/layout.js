@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="container-fluid">
+      <div className="container-fluid background-color">
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built By
