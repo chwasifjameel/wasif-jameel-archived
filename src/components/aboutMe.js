@@ -1,13 +1,16 @@
 import React from "react"
 import Image from "./image"
 import { FaTwitter, FaFacebookF, FaGithub } from "react-icons/fa"
+import { Parallax } from "react-scroll-parallax"
 
 export default () => (
   <div className="row justify-content-around ">
     <div className="col-xs-12 col-sm-4 justify-content-center ">
-      <div style={{ width: "70%" }}>
-        <Image src="wasif-jameel.JPG" />
-      </div>
+      <Parallax className="custom-class" y={[50, -20]} tagOuter="figure">
+        <div style={{ width: "70%" }}>
+          <Image src="wasif-jameel.JPG" />
+        </div>
+      </Parallax>
     </div>
     <div className="col-xs-10 col-sm-4 m-3">
       <h1 className="text-light-color">Hi! I'm Wasif Jameel</h1>
