@@ -8,8 +8,8 @@ export default () => (
       params={{
         particles: {
           number: {
-            value: 38,
-            density: { enable: false, value_area: 1815.039575754227 },
+            value: 90,
+            density: { enable: false, value_area: 1815 },
           },
           color: { value: "#ffffff" },
           shape: {

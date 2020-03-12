@@ -13,7 +13,7 @@ const Encrypt = ({ values }) => {
       dencrypt(values[i])
 
       i = i === values.length - 1 ? 0 : i + 1
-    }, 2000)
+    }, 800)
 
     return () => clearInterval(action)
   }, [])
