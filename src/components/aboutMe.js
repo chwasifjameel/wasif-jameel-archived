@@ -5,8 +5,8 @@ import { Parallax } from "react-scroll-parallax"
 
 export default () => (
   <div className="row justify-content-around ">
-    <div className="col-xs-12 col-sm-4 justify-content-center ">
-      <Parallax className="mb-5" y={[25, -25]} tagOuter="figure">
+    <div className="col-xs-12 col-sm-4 justify-content-center">
+      <Parallax className="mb-5" y={[50, -50]} tagOuter="figure">
         <div style={{ width: "70%" }}>
           <Image src="wasif-jameel-me.jpg" />
         </div>
