@@ -24,12 +24,12 @@ canvas {
   font-size: 5rem;
 }
 
-.ftco-footer-social li {
+.footer-social li {
   list-style: none;
   margin: 0 10px 10px 0;
   display: inline-block;
 }
-.ftco-footer-social li a {
+.footer-social li a {
   height: 60px;
   width: 60px;
   display: block;
@@ -38,7 +38,7 @@ canvas {
   border-radius: 50%;
   position: relative;
 }
-.ftco-footer-social li a span {
+.footer-social li a span {
   position: absolute;
   font-size: 26px;
   top: 50%;
@@ -47,10 +47,17 @@ canvas {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.ftco-footer-social li a:hover {
+.footer-social li a:hover {
   color: #fff;
 }
 
 a > svg {
   font-size: xx-large;
+}
+
+.icon-color {
+  color: #2f89fc;
+}
+.icon-color a svg {
+  font-size: 4rem;
 }

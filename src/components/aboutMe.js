@@ -6,9 +6,9 @@ import { Parallax } from "react-scroll-parallax"
 export default () => (
   <div className="row justify-content-around ">
     <div className="col-xs-12 col-sm-4 justify-content-center ">
-      <Parallax className="custom-class" y={[50, -20]} tagOuter="figure">
+      <Parallax className="mb-5" y={[25, -25]} tagOuter="figure">
         <div style={{ width: "70%" }}>
-          <Image src="wasif-jameel.JPG" />
+          <Image src="wasif-jameel.jpg" />
         </div>
       </Parallax>
     </div>
@@ -26,7 +26,7 @@ export default () => (
         essentially unchanged. It was popularised in the 1960s with the release
         of Letraset
       </h6>
-      <ul class="ftco-footer-social list-unstyled mt-4">
+      <ul class="footer-social list-unstyled mt-4">
         <li>
           <a
             href="https://twitter.com/chwasifjameel"
