@@ -8,7 +8,7 @@ export default () => (
     <div className="col-xs-12 col-sm-4 justify-content-center ">
       <Parallax className="mb-5" y={[25, -25]} tagOuter="figure">
         <div style={{ width: "70%" }}>
-          <Image src="wasif-jameel.jpg" />
+          <Image src="wasif-jameel-me.jpg" />
         </div>
       </Parallax>
     </div>
