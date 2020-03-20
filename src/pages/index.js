@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import MainSection from "../components/mainSection"
 import AboutMe from "../components/aboutMe"
 import Services from "../components/Services"
+import Development from "../components/developmentSection"
 import { ParallaxProvider } from "react-scroll-parallax"
 
 const IndexPage = () => (
@@ -13,6 +14,7 @@ const IndexPage = () => (
       <MainSection />
       <AboutMe />
       <Services />
+      <Development />
     </Layout>
   </ParallaxProvider>
 )
