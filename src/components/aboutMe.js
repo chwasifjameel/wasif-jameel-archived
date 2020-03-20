@@ -26,7 +26,7 @@ export default () => (
         essentially unchanged. It was popularised in the 1960s with the release
         of Letraset
       </h6>
-      <ul class="footer-social list-unstyled mt-4">
+      <ul className="footer-social list-unstyled mt-4">
         <li>
           <a
             href="https://twitter.com/chwasifjameel"
@@ -49,7 +49,6 @@ export default () => (
             className="d-flex justify-content-center align-items-center font-weight-bold"
           >
             <FaGithub />
-            <span class="icon-instagram"></span>
           </a>
         </li>
       </ul>
