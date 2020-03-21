@@ -34,6 +34,7 @@ export default () => (
   <div className="container my-5 py-5 ">
     {temp.map(({ heading, title, description, picture }, index) => (
       <div
+        key={index}
         className={
           index % 2 === 0
             ? "row justify-content-between "
