@@ -31,6 +31,7 @@ module.exports = {
       resolve: `gatsby-plugin-scroll-indicator`,
       options: {
         color: "#007bff",
+        height: "5px",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
