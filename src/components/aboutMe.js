@@ -15,14 +15,14 @@ export default () => (
       </div>
       <div className="col-xs-10 col-sm-6 m-3">
         <h1 className="text-light-color">Hi! I'm Wasif Jameel</h1>
-        <h6 className="text-justify">
-          Industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries. <br />
-          But also the leap into electronic typesetting , remaining essentially
-          unchanged. It was popularised in the 1960s with the release of
-          Letraset
+        <h6 className="">
+          I'm a Tech Savvy. I have working experience in numerous industries and
+          environments. I do web development, mobile app development, and
+          desktop application development. Anything you could name! I keep a
+          close eye on emerging technologies.
+          <br />I have also worked closely with many international startups in
+          my capacity as a consultant, developer, and architect. I'm currently
+          serving <a href="https://ciphersavvy.com">Cipher Savvy</a> as CEO.
         </h6>
         <ul className="footer-social list-unstyled mt-4">
           <li>
